@@ -1,0 +1,56 @@
+.about-container {
+  max-height: 100vh;
+  color: $white;
+  @extend .flex-row-center;
+  figure {
+    width: 100% !important;
+    img {
+      width: 100%;
+    }
+  }
+  h1 {
+    font-size: 6rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+
+  .moving-text{
+    overflow: hidden;
+    color: $light-blue;
+  }
+  .wavehand {
+    animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.1s; /* Change to speed up or slow down */
+    animation-iteration-count: infinite; /* Never stop waving :) */
+    transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+
+  @keyframes wave-animation {
+    0% {
+      transform: rotate(0deg);
+    }
+    10% {
+      transform: rotate(14deg);
+    } /* The following five values can be played with to make the waving more or less extreme */
+    20% {
+      transform: rotate(-8deg);
+    }
+    30% {
+      transform: rotate(14deg);
+    }
+    40% {
+      transform: rotate(-4deg);
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    60% {
+      transform: rotate(0deg);
+    } /* Reset for the last half to pause */
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+}

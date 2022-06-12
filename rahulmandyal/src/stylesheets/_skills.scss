@@ -1,0 +1,29 @@
+
+.container{
+    padding: 5% 11%;
+}
+.section-heading{
+    font-size: 4rem;
+    color: $white;
+}
+.cards-container{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    gap: 3rem;
+    .card{
+        svg{
+            font-size: 5rem;
+            margin-bottom: 1rem;
+            color: $light-blue;
+        }
+        background: $secondary;
+        padding: 4rem;
+        @extend .flex-col-center;
+       border-radius: .6rem;
+       font-family: $tittilium;
+    }
+    h3{
+        color :#f7f7f7;
+    }
+}

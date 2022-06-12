@@ -1,0 +1,35 @@
+.navigation-bar-container{
+    background-color: $secondary;
+    border-right:.2rem solid $primary;
+    display: flex;
+    flex-direction: column;
+    justify-content:  start;
+    padding: 2rem 0;
+    .navigationbar{
+        margin: 4rem 0;
+        li{
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            list-style-type: none;
+            padding:  1rem 0;
+            border-top: $border;
+            border-bottom:.1rem solid $primary ;
+            a{
+                color: $white;
+                font-size: 1.8rem;
+                font-weight: 600;
+                font-family:  $tittilium;
+            }
+        }
+    }
+    .userintro-container{
+        img{
+            width: 60%;
+            border-radius: 50%;
+            border: .2rem solid $light-blue;
+            outline: .2rem solid $primary;
+        }
+        text-align: center;
+    }
+}

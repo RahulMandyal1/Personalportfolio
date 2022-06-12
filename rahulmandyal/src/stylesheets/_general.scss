@@ -1,0 +1,91 @@
+// all general styling here
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+// for layout all common used classes
+.flex-row{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap:wrap ;
+}
+.flex-col-center {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.flex-row-center {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flex-48 {
+  flex: 0 1 48%;
+}
+.flex-23{
+  flex:  0 1 23%;
+}
+#root {
+  display: flex;
+  .navigation-bar-container {
+    flex: 0 1 15%;
+  }
+  main {
+    flex: 0 1 85%;
+  }
+  a {
+    text-decoration: none;
+  }
+}
+
+html {
+  font-size: 62.5%;
+  body {
+    font-size: 1.6rem;
+  }
+}
+
+section {
+  padding: 0 11%;
+  min-height: 100vh;
+  max-height: 100vh;
+}
+
+$section-background-color: linear-gradient(
+  to bottom left,
+  rgba(17, 16, 16, 0.582),
+  rgba(12, 8, 24, 0.904)
+);
+
+$image-gradient: linear-gradient(
+  to bottom left,
+  rgba(17, 16, 16, 0.678),
+  rgba(12, 10, 22, 0.863)
+);
+
+$primary: #c770f0;
+$secondary: #191d2b;
+$tertiary: #10121b;
+$light-blue: #037fff;
+$white: #fff;
+$border: 0.1rem solid $primary;
+$poppins: "Poppins", sans-serif;
+$tittilium: "Titillium Web", sans-serif;
+// all the color palletes
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #2d1950;
+}
+
+main {
+  min-height: 100vh;
+  max-height: 100vh;
+  background: $section-background-color, url("../../public/Images/home-bg.jpg");
+  background-position: 60% 60%;
+}
