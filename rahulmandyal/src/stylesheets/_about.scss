@@ -1,5 +1,7 @@
 .about-container {
-  max-height: 100vh;
+  height: 90vh;
+  background: $section-background-color, url("../../public/Images/home-bg.jpg");
+  background-position: 70% 70%;
   color: $white;
   @extend .flex-row-center;
   figure {
@@ -15,7 +17,7 @@
     font-size: 3rem;
   }
 
-  .moving-text{
+  .moving-text {
     overflow: hidden;
     color: $light-blue;
   }
@@ -51,6 +53,100 @@
     } /* Reset for the last half to pause */
     100% {
       transform: rotate(0deg);
+    }
+  }
+}
+
+.aboutme-container {
+  height: auto;
+  padding: 4% 11%;
+}
+.userinfowrapper {
+  @extend .flex-row;
+  align-items: flex-start;
+  .userinformation {
+    flex: 0 1 60%;
+  }
+  figure {
+    flex: 0 1 20%;
+    width: 100%;
+    img {
+      width: 100% !important;
+      border-radius: 50%;
+      border: 0.3rem solid $light-blue;
+      outline: 0.1rem solid $secondary;
+    }
+  }
+  .stack-container {
+    margin: 1rem 0;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  h1 {
+    font-size: 4rem;
+  }
+  h2 {
+    font-size: 2.4rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .about-container {
+    flex-direction: column;
+    height: auto;
+    figure {
+      width: 40%;
+      img {
+        width: 100% !important;
+      }
+    }
+  }
+  .userinfowrapper {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    h3 {
+      text-align: center;
+    }
+    figure {
+      width: 50% !important;
+      margin: 2rem 0;
+      img {
+        width: 100% !important;
+      }
+    }
+  }
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+  }
+  .aboutme-container{
+    h3{
+      font-size: 2.5rem;
+      font-weight: 600;
+    }
+    .stack-container{
+      margin: 3rem 0 ;
+      h4{
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 4rem !important;
+  }
+  h2 {
+    font-size: 2.5rem !important;
+  }
+  .about-container {
+    figure {
+      padding: 2rem 0;
     }
   }
 }

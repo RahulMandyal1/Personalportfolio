@@ -3,8 +3,9 @@ import { AiFillHtml5 } from "react-icons/ai";
 import { FaNodeJs, FaCss3 } from "react-icons/fa";
 import { TbBrandJavascript } from "react-icons/tb";
 import { SiExpress, SiMongodb, SiReact } from "react-icons/si";
-import Card from "./Card/Card";
-import { skillText } from "../utils/constant";
+import Card from "../Card/Card";
+import { skillText } from "../../utils/constant";
+
 // all  the skills  cards icons
 const skills = [
   AiFillHtml5,

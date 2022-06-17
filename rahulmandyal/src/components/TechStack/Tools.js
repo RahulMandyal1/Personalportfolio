@@ -9,7 +9,7 @@ import {
   SiHeroku,
   SiVercel,
 } from "react-icons/si";
-import Card from "./Card/Card";
+import Card from "../Card/Card";
 
 const icons = [
   SiGit,
