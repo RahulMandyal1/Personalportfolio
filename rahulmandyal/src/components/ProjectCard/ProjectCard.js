@@ -12,13 +12,6 @@ function ProjectCard(props) {
       </figure>
       <h3 className="card-heading">{title}</h3>
       <p>{description}</p>
-      <div className="tags-container">
-        <ul>
-          {tags.map((tag) => {
-            return <li key={tag}> {tag}</li>;
-          })}
-        </ul>
-      </div>
       <div className="button-container">
         <ul>
           <li>

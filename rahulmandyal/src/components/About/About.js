@@ -20,11 +20,20 @@ export default function About() {
           <img src="/Images/home-main.svg" alt="user profile"></img>
         </figure>
       </section>
+      
       <section className="aboutme-container">
         <h2 className="section-heading">About me </h2>
         <div className="userinfowrapper">
           <article className="userinformation">
-            <h3>I am a MERN stack developer.</h3>
+          <h3>I am a MERN stack developer.</h3>
+            <div className="stack-container">
+              <p>
+                I find immense joy in creating web apps and solving problems
+                that occur in the development phase. I believe in working hard
+                and learning new skills whenever possible to enhance my
+                skilllsets.
+              </p>
+            </div>
             <div className="stack-container">
               <h4> Backend</h4>
               <p>
