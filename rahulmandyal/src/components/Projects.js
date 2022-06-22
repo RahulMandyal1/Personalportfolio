@@ -19,21 +19,15 @@ export default function Projects() {
             <ProjectCard
               image={"blogapp.png"}
               title={"Blog app"}
-              description={"blog app made with react js"}
+              description={
+                "This application has all the functionality that a blog app have . User can create an account login or logout . Create or delete an article or comment on articles  and much more "
+              }
               links={[
                 "//github.com/RahulMandyal1/blogapp",
                 "//rahulmandyal1.github.io/blogapp/",
               ]}
             />
-            <ProjectCard
-              image={"conduitapi.png"}
-              title={"Blog app api"}
-              description={"Blog app api made with node js and mongodb"}
-              links={[
-                "//github.com/RahulMandyal1/ConduitApi",
-                "//conduitblogapp.herokuapp.com/",
-              ]}
-            />
+
             <ProjectCard
               image={"portfolio.png"}
               title={"Personal portfolio"}
@@ -43,6 +37,19 @@ export default function Projects() {
                 "//conduitblogapp.herokuapp.com/",
               ]}
             />
+
+            <ProjectCard
+              image={"conduitapi.png"}
+              title={"Blog app api"}
+              description={
+                "This is  the api of this blog application that i  have made . Used Node js Or mongodb . Jwt for authetication."
+              }
+              links={[
+                "//github.com/RahulMandyal1/ConduitApi",
+                "//conduitblogapp.herokuapp.com/",
+              ]}
+            />
+
             <ProjectCard
               image={"githubBattle.png"}
               title={"Github Battle app"}
@@ -56,7 +63,7 @@ export default function Projects() {
               image={"sixteenclothing.png"}
               title={"Sixteen Clothing"}
               description={
-                " Ecommerce website made with the vanills js and scss."
+                " Ecommerce website made with the vanilla js and scss."
               }
               links={[
                 "//github.com/RahulMandyal1/SixteenClothing ",
@@ -66,7 +73,7 @@ export default function Projects() {
             <ProjectCard
               image={"flexor.png"}
               title={"Flexor"}
-              description={"Fully resposive website made with html css."}
+              description={"Fully resposive  Multipage website made with html css."}
               links={[
                 "//github.com/RahulMandyal1/checkpoint4.github.io",
                 "//rahulmandyal1.github.io/checkpoint4.github.io/",
@@ -87,7 +94,7 @@ export default function Projects() {
               image={"todoapp.png"}
               title={"Todo Application. "}
               description={
-                "User can add what need to be done .Made with rect  and redux."
+                "Basic todo application made with redux and react . User can add what need to be done after completing  the task he can remove that particular todo"
               }
               links={[
                 "//github.com/RahulMandyal1/Redux/tree/main/ReactRedux_todoApplication/react-redux-todoapp",

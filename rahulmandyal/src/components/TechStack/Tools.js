@@ -24,9 +24,9 @@ const icons = [
 const iconsText = [
   "Git",
   "Github",
-  "Npm",
+  "NPM",
   "Visualstudiocode",
-  "Atlas",
+  "MongoDBAtlas",
   "Netlify",
   "Heroku",
   "Vercel",

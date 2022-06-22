@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 
@@ -8,12 +8,14 @@ export default function Header() {
   return (
     <header className="navigation-bar-container">
       <div className="logo-container">
-        <figure>
-          <img
-            src="https://avatars.githubusercontent.com/u/93306066?v=4"
-            alt="rahulmandyal"
-          ></img>
-        </figure>
+        <Link to={"/"}>
+          <figure>
+            <img
+              src="https://avatars.githubusercontent.com/u/93306066?v=4"
+              alt="rahulmandyal"
+            ></img>
+          </figure>
+        </Link>
         <span>Rahul</span>
       </div>
 
@@ -55,6 +57,17 @@ export default function Header() {
             >
               Contact
             </NavLink>
+          </li>
+          <li>
+            <button id="resume-btn">
+              <a
+                href="./RahulThakur.pdf"
+                download="Rahul_Thakur"
+                id="resume-button"
+              >
+                Resume
+              </a>
+            </button>
           </li>
         </ul>
       </nav>

@@ -26,7 +26,7 @@ export default function Contact() {
       <div className="email-container flex-row">
         <div>
           <h4>
-            Mail me :{" "}
+            Mail me :
             <Link to={"//mailto:rahulthakurcoder@gmail.com"}>
               rahulthakurcoder@gmail.com
             </Link>
@@ -34,6 +34,11 @@ export default function Contact() {
         </div>
         <div>
           <h4>Call me : +917018769528</h4>
+          <p className="text-center">
+            <a href="./RahulThakur.pdf" download="Rahul_thakur" className="resume-btn">
+              Download Resume
+            </a>
+          </p>
         </div>
       </div>
     </section>

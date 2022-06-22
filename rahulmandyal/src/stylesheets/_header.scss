@@ -40,6 +40,23 @@
     }
   }
 }
+#resume-button {
+  padding: 0.5rem 1.4rem;
+  background: #bf3dd6;
+  color: #fff;
+  border-radius: 0.6rem;
+  border: none;
+  a {
+    color: #fff;
+  }
+  &:hover {
+    background-color: #aa34be;
+  }
+}
+#resume-btn {
+  border: none;
+  padding: 0;
+}
 
 @media only screen and (max-width: 768px) {
   .navigation-bar-container {

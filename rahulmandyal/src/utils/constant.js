@@ -1,10 +1,10 @@
 const skillText = [
-  "Html",
-  "Css 3",
-  " Javascript",
-  "Node js",
-  "MongoDb",
-  "Express Js",
+  "HTML",
+  "CSS 3",
+  "JavaScript",
+  "NodeJs",
+  "MongoDB",
+  "ExpressJs",
   "ReactJs",
 ];
 

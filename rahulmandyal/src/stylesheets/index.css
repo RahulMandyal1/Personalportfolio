@@ -448,6 +448,27 @@ section {
   font-family: "Titillium Web", sans-serif;
 }
 
+#resume-button {
+  padding: 0.5rem 1.4rem;
+  background: #bf3dd6;
+  color: #fff;
+  border-radius: 0.6rem;
+  border: none;
+}
+
+#resume-button a {
+  color: #fff;
+}
+
+#resume-button:hover {
+  background-color: #aa34be;
+}
+
+#resume-btn {
+  border: none;
+  padding: 0;
+}
+
 @media only screen and (max-width: 768px) {
   .navigation-bar-container {
     padding: 2rem;
@@ -629,7 +650,7 @@ section {
         grid-template-columns: 1fr;
   }
   .project-section .project-wrapper {
-    padding: 2rem !important;
+    padding: 0rem !important;
   }
   .getlatest-projects {
     padding: 6rem 11% !important;
@@ -661,7 +682,7 @@ section {
 .contact-container h2 {
   font-size: 4rem;
   color: #191d2b;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   text-transform: uppercase;
 }
 
@@ -736,7 +757,27 @@ section {
   color: #8700ff;
 }
 
+.contact-container .resume-btn {
+  background: #aa34be;
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+  padding: 0.8rem 2.4rem;
+  border-radius: 0.6rem;
+  display: inline-block;
+}
+
 .text-center {
   text-align: center;
+}
+
+@media only screen and (max-width: 380px) {
+  .contact-container .resume-btn {
+    padding: 0.6rem 1.4rem;
+    font-size: 1.5rem;
+  }
+  .email-container h4 {
+    font-size: 1.3rem !important;
+  }
 }
 /*# sourceMappingURL=index.css.map */
