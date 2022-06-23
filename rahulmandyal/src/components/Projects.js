@@ -24,7 +24,7 @@ export default function Projects() {
               }
               links={[
                 "//github.com/RahulMandyal1/blogapp",
-                "//rahulmandyal1.github.io/blogapp/",
+                "//conduitblogapp.netlify.app",
               ]}
             />
 
