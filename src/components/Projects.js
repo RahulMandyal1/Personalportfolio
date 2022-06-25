@@ -90,17 +90,6 @@ export default function Projects() {
                 "//rahulmandyal1.github.io/Stimulus/",
               ]}
             />
-            <ProjectCard
-              image={"todoapp.png"}
-              title={"Todo Application. "}
-              description={
-                "Basic todo application made with redux and react . User can add what need to be done after completing  the task he can remove that particular todo"
-              }
-              links={[
-                "//github.com/RahulMandyal1/Redux/tree/main/ReactRedux_todoApplication/react-redux-todoapp",
-                "//62adfaa8d9b48a17c8d4337d--todoapplication-react-redux.netlify.app/",
-              ]}
-            />
           </div>
         </div>
       </section>
