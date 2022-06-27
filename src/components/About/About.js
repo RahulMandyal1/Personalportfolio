@@ -44,7 +44,7 @@ export default function About() {
             <div className="stack-container">
               <h4>Frontend</h4>
               <p>
-                Learned React, React Router, React Router Dom, Redux. Continued
+                Learned React, React Router,Redux. Continued
                 with Functional Components, Class Components, State, Props,
                 Context API, HOC, Render Props , Hooks and much more.
               </p>
