@@ -20,7 +20,7 @@ export default function Projects() {
               image={"blogapp.png"}
               title={"Blog app"}
               description={
-                "This application has all the functionality that a blog app have . User can create an account login or logout . Create or delete an article or comment on articles  and much more "
+                "This application is a social blogging site (i.e. a Medium.com clone) called "Conduit". It uses a custom API for all requests, including authentication and much more .."
               }
               links={[
                 "//github.com/RahulMandyal1/blogapp",
