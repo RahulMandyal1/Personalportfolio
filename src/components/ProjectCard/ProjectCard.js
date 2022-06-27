@@ -15,12 +15,12 @@ function ProjectCard(props) {
       <div className="button-container">
         <ul>
           <li>
-            <Link to={links[0]}>
+            <Link to={links[0]} target="_blank">
               <SiGithub />
             </Link>
           </li>
           <li>
-            <Link to={links[1]}>
+            <Link to={links[1]} target="_blank">
               <AiFillEye />
             </Link>
           </li>
