@@ -60,6 +60,15 @@ export default function Projects() {
               ]}
             />
             <ProjectCard
+              image={"todoapp.png"}
+              title={"Todo Application"}
+              description={"Very basic todo application made with react js and redux. User can add what need to be done."}
+              links={[
+                "//github.com/RahulMandyal1/ReduxReactTodoApp",
+                "//redux-react-todo-app.vercel.app",
+              ]}
+            />
+            <ProjectCard
               image={"sixteenclothing.png"}
               title={"Sixteen Clothing"}
               description={
