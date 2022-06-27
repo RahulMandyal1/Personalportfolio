@@ -33,8 +33,8 @@ export default function Projects() {
               title={"Personal portfolio"}
               description={"My personal Portfolio  website made with react js "}
               links={[
-                "//github.com/RahulMandyal1/ConduitApi",
-                "//conduitblogapp.herokuapp.com/",
+                "//github.com/RahulMandyal1/Personalportfolio",
+                "//rahulmandyal.me/",
               ]}
             />
 
