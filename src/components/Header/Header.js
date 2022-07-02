@@ -1,10 +1,17 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
+import { ImCross } from "react-icons/im";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 export default function Header() {
   let [toggleMenu, setToggleMenu] = useState(false);
+  console.log("this is the toggleMenu", toggleMenu);
+
+  const revertToggle = () => {
+    setToggleMenu(!toggleMenu);
+  };
+
   return (
     <header className="navigation-bar-container">
       <div className="logo-container">
@@ -20,11 +27,11 @@ export default function Header() {
       </div>
 
       <div className="hamburg-container">
-        <GiHamburgerMenu
-          onClick={() => {
-            setToggleMenu(!toggleMenu);
-          }}
-        />
+        {toggleMenu ? (
+          <ImCross onClick={revertToggle} />
+        ) : (
+          <GiHamburgerMenu onClick={revertToggle} />
+        )}
       </div>
 
       <nav className="navigationbar" id={toggleMenu && "showmenu"}>

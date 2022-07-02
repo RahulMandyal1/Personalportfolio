@@ -4,7 +4,7 @@ import { AiFillEye } from "react-icons/ai";
 import { Link } from "react-router-dom";
 
 function ProjectCard(props) {
-  let { image, title, description, tags, links } = props;
+  let { image, title, description,  links } = props;
   return (
     <article className="project-card">
       <figure>
