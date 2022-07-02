@@ -28,7 +28,7 @@ export default function Header() {
 
       <div className="hamburg-container">
         {toggleMenu ? (
-          <ImCross onClick={revertToggle} />
+          <ImCross onClick={revertToggle}  className="cancle-dropdown"/>
         ) : (
           <GiHamburgerMenu onClick={revertToggle} />
         )}
