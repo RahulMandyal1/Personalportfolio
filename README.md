@@ -3,7 +3,7 @@
 
 - Made with react js .
 - Hosted it on Netlify.
-- Connected it with domain custom domain www.rahulmandyal.me
+- Connected it with domain custom domain www.rahulmandyal.me .
 
 
 
