@@ -65,7 +65,7 @@ export default function Projects() {
               description={"Very basic todo application made with react js and redux. User can add what need to be done."}
               links={[
                 "//github.com/RahulMandyal1/ReduxReactTodoApp",
-                "//redux-react-todo-app.vercel.app",
+                "//redux-react-todo-bp26so8ys-rahulmandyal1.vercel.app/",
               ]}
             />
             <ProjectCard
